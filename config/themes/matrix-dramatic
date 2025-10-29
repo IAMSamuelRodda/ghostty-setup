@@ -1,0 +1,46 @@
+# High-Contrast Matrix Theme
+# Anchored around: Rich Black (#030303), Pigment Green (#1CA152), North Texas Green (#008529)
+
+# Rich black background for maximum contrast
+background = #030303
+foreground = #1CA152
+
+# Selection colors
+selection-foreground = #030303
+selection-background = #1CA152
+
+# Cursor
+cursor-color = #1CA152
+cursor-text = #030303
+
+# Black (normal and bright)
+palette = 0=#030303
+palette = 8=#0d0d0d
+
+# Red (normal and bright) - use greens for Matrix aesthetic
+palette = 1=#008529
+palette = 9=#1CA152
+
+# Green (normal and bright) - primary Matrix colors
+palette = 2=#1CA152
+palette = 10=#3FD47C
+
+# Yellow (normal and bright) - bright lime greens
+palette = 3=#3FD47C
+palette = 11=#5FFF9E
+
+# Blue (normal and bright) - darker forest greens
+palette = 4=#005A1C
+palette = 12=#008529
+
+# Magenta (normal and bright) - vibrant greens
+palette = 5=#00B83D
+palette = 13=#1CA152
+
+# Cyan (normal and bright) - electric greens
+palette = 6=#2EE86D
+palette = 14=#5FFF9E
+
+# White (normal and bright) - lightest greens to white
+palette = 7=#3FD47C
+palette = 15=#FFFFFF

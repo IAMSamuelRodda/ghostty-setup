@@ -1,0 +1,57 @@
+# Ghostty Terminal Configuration - Matrix Hacking Vibe
+
+# ===== FONT SETTINGS =====
+font-family = JetBrains Mono
+font-size = 11
+
+# ===== THEME =====
+# Switch themes by changing the include path below:
+# - themes/matrix-dramatic  (Current Matrix theme)
+# - themes/default-dark     (Standard dark theme)
+theme = matrix-dramatic
+
+# ===== WINDOW SETTINGS =====
+window-padding-x = 4
+window-padding-y = 4
+background-opacity = 0.9
+
+# Client-side decorations for thin titlebar (like Kitty)
+window-decoration = client
+window-theme = ghostty
+
+# ===== CURSOR SETTINGS =====
+cursor-style = block
+cursor-style-blink = true
+
+# ===== TAB SETTINGS =====
+# Note: Ghostty doesn't have powerline tabs, but you can customize appearance
+window-inherit-working-directory = true
+window-inherit-font-size = true
+
+# ===== MATRIX RAIN COMMANDS =====
+# NOTE: Ghostty doesn't support launching external programs via keybindings
+# Use shell aliases instead (added to your .bashrc)
+#
+# Usage: Just type these commands in ghostty:
+#   matrix        - Neo with gaps & varied speed (recommended)
+#   matrix-dense  - Dense, faster rain
+#   matrix-sparse - Very sparse & slow
+#   matrix-chaos  - Chaotic with heavy glitching
+#   matrix-calm   - Calm, minimal, no glitch
+#   matrix-life   - Conway's Game of Life
+#   matrix-fract  - Mandelbrot fractals
+#   matrix-cxx    - CXXMatrix classic
+#   matrix-uni    - UniMatrix classic
+#
+# Press Ctrl+C to exit matrix rain effects
+
+# ===== TAB MANAGEMENT =====
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+w=close_surface
+keybind = ctrl+shift+right=next_tab
+keybind = ctrl+shift+left=previous_tab
+
+# ===== COPY ON SELECT =====
+# Ghostty auto-copies on mouse selection by default
+# Use middle-click or Shift+Insert to paste
+keybind = shift+enter=text:\x1b\r

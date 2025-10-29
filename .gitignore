@@ -1,0 +1,60 @@
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Build artifacts (if building locally in repo)
+zig-cache/
+zig-out/
+.zig-cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test files
+test-*.sh
+scratch/
+temp/
+
+# Downloaded sources (if testing builds)
+ghostty-*.tar.gz
+ghostty-build/
+
+# Local configuration (if someone tests configs here)
+config/config.local
+themes/*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.venv
+env/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Personal notes
+TODO.txt
+NOTES.md
+notes/
