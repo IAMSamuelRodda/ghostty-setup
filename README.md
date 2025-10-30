@@ -19,7 +19,7 @@ A complete Ghostty terminal configuration with Matrix-themed aesthetics, ready t
 For Ubuntu 24.04/25.04 on x86_64:
 
 ```bash
-git clone https://github.com/yourusername/ghostty-setup.git
+git clone https://github.com/IAMSamuelRodda/ghostty-setup.git
 cd ghostty-setup
 ./scripts/install-binary.sh
 ```
@@ -35,7 +35,7 @@ cd ghostty-setup
 For other Linux distros or if you want the latest version:
 
 ```bash
-git clone https://github.com/yourusername/ghostty-setup.git
+git clone https://github.com/IAMSamuelRodda/ghostty-setup.git
 cd ghostty-setup
 ./scripts/install-from-source.sh
 ```
@@ -101,7 +101,7 @@ Install Matrix rain screensavers:
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/yourusername/ghostty-setup.git
+   git clone https://github.com/IAMSamuelRodda/ghostty-setup.git
    cd ghostty-setup
    ```
 
@@ -137,7 +137,7 @@ Install Matrix rain screensavers:
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/yourusername/ghostty-setup.git
+   git clone https://github.com/IAMSamuelRodda/ghostty-setup.git
    cd ghostty-setup
    ```
 
